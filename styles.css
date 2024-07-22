@@ -136,5 +136,25 @@ footer{
 .redes a img:hover{
     transform: scale(1.2);                      /* Aumenta el tamaño de la imagen */
 }
-
+@media (max-width: 600px) { /* Para pantallas de 600px o menos */
+    .fondo img {
+        width: 100%; /* Ajusta la imagen al 100% del contenedor */
+    }
+    .container {
+        flex-direction: column; /* Cambia la dirección del flex a columna */
+        height: auto; /* Permite que la altura se ajuste automáticamente */
+    }
+    .derecho {
+        width: 100%; /* Ajusta el ancho al 100% */
+    }
+    .menu1 {
+        padding: 5px; /* Reduce el padding para pantallas pequeñas */
+    }
+    h1 {
+        font-size: 24px; /* Ajusta el tamaño de la fuente */
+    }
+    li {
+        margin: 5px 0; /* Cambia el margen para mejor visualización */
+    }
+}
 
