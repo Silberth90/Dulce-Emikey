@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.ldulce a{
+    margin: 0;
+}
+body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(245,183,177,0.7959558823529411) 94%);
+}
+.logodulce{
+    width: 600px;                                 /* ancho de la caja*/
+
+}
+nav{
+    display: flex;                               /* Alinea los elementos en una fila */
+    justify-content: center;                    /* Ajusta los elementos en el centro */
+    align-items: center;                        /* Ajusta los elementos en el centro */
+}
+h1, h2, p, a{
+    font-size: 20px;                            /* Tamaño de la fuente */
+    display: flex;                               /* Alinea los elementos en una fila */
+    justify-content: center;                    /* Ajusta los elementos en el centro */
+    align-items: center;                        /* Ajusta los elementos en el centro */
+    margin: 20px;                               /* Margen de la caja */
+}
+.caja-container {
+    display: flex;                               /* Alinea los elementos en una fila */
+    justify-content: center;                     /* Ajusta los elementos en el centro */    
+    align-items: center;                         /* Ajusta los elementos en el centro */
+    flex-wrap: wrap;                             /* Ajusta los elementos en filas */
+    gap: 10px;                                   /* Espacio entre los elementos */
+}
+.caja{
+    width: 100px;                               /* Ancho de la caja */
+    height: 100px;                              /* Alto de la caja */
+    margin: 20px;                               /* Margen de la caja */
+    float: left;                                /* Alinea a la izquierda */
+    display: flex;                              /* Alinea los elementos en una fila */
+    justify-content: center;                    /* Ajusta los elementos en el centro */
+    align-items: center;                        /* Ajusta los elementos en el centro */
+}
+.caja-container img:hover {
+    transform: scale(1.2); /* Agranda la imagen al 120% */
+    transition: transform 0.3s ease; /* Añade una transición suave */
+}
+.formulario{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    text-align: center;
+}

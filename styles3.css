@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(245,183,177,0.7959558823529411) 94%);
+}
+.caja-container {
+    display: flex;                               /* Alinea los elementos en una fila */
+    justify-content: center;                     /* Ajusta los elementos en el centro */    
+    align-items: center;                         /* Ajusta los elementos en el centro */
+    flex-wrap: wrap;                             /* Ajusta los elementos en filas */
+    gap: 10px;                                   /* Espacio entre los elementos */
+}
+.caja{
+    width: 100px;                               /* Ancho de la caja */
+    height: 100px;                              /* Alto de la caja */
+    margin: 20px;                               /* Margen de la caja */
+    float: left;                                /* Alinea a la izquierda */
+    display: flex;                              /* Alinea los elementos en una fila */
+    justify-content: center;                    /* Ajusta los elementos en el centro */
+    align-items: center;                        /* Ajusta los elementos en el centro */
+}
+.caja a img:hover{
+    transform: scale(1.2);                      /* Aumenta el tamaño de la imagen */
+}

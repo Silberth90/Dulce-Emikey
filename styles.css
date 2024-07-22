@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(245,183,177,0.7959558823529411) 94%);
+}
+.fondo{
+    display: flex;                              /*mostrar los elementos en una linea*/
+    justify-content: center;                   /*centrar los elementos*/
+    align-items: center;                       /*centrar los elementos*/
+    margin: 0;
+}
+.fondo img{
+    display: block;                            /*mostrar los elementos en una linea*/
+    width: 300px;                             /*ancho*/
+}
+header{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(245,183,177,1) 79%);
+    margin: 0;                             /*margen 0*/
+    height: 125px;                          /*altura*/
+}
+.men {
+
+    display: flex;                       /*mostrar los elementos en una linea*/
+    justify-content: center;             /*centrar los elementos*/
+    align-items: center;                 /*centrar los elementos*/
+    padding: 1px;                       /*margen interior*/
+    height: 40px;                        /*altura*/
+    margin: 0;
+
+
+}
+
+.menu1 {
+    display: inline-block;               /*mostrar los elementos en una linea*/
+    justify-content: center;             /*centrar los elementos*/
+    align-items: center;                 /*centrar los elementos*/
+    padding: 10px 10px;                  /*margen interior*/
+    margin: 0;                            /*margen 0*/
+    border: 1px solid black;            /*borde*/
+}
+.men li:hover, .derecho li:hover{
+    background: rgb(173, 162, 162);      /*color de fondo*/
+    opacity: 0.5;
+    
+    
+}
+
+a {
+    text-decoration: none;               /*sin subrayado*/
+    color: black;                      /*color del texto*/
+    font-size: 20px;                     /*tamaño de la letra*/
+    padding: 10px;                       /*margen interior*/
+    margin: 0;                           /*margen 0*/
+    text-align: center;                  /*centrar el texto*/
+}
+h1{
+    text-align: center;                   /*centrar el texto*/
+    padding: 22px;                        /*margen interior*/
+    
+    
+
+}
+li{
+    padding: 10px 10px;                   /*margen interior*/
+    margin: 0 10px;                       /*margen 0 y los lados 10*/
+}
+
+
+.foto1, .container{
+    display: flex;                           /*mostrar los elementos en una linea*/
+    justify-content: center;                 /*centrar los elementos*/
+    align-self: flex-start;                  /*aliniar al inicio*/
+
+}
+
+.container{
+
+    position: relative;                      /*posicion relativa*/
+    width: 90%;                              /*ancho*/
+    height: calc(117vh - 300px);               /*altura */
+    margin: 0;                               /*margen 0*/
+    display: flex;                           /*mostrar los elementos en una linea*/
+
+}
+.derecho{
+
+    width: 200px;                           /*ancho*/
+}
+.der3{
+    list-style-type: none;                   /*sin puntos*/
+    border: 1px solid black;               /*borde*/
+    margin: 5px;                             /*margen 5*/
+    display: flex;                           /*mostrar los elementos en una linea*/
+    justify-content: center;                 /*centrar los elementos*/
+    align-items: center;                     /*centrar los elementos*/
+    height: 10px;                            /*altura*/
+
+}
+h3, P, h2{
+    text-align: center;
+    padding: 10px;
+    font: oblique bold 100% cursive;
+}
+.p1{
+    font-size: 15px;
+}
+.menu2{
+
+    height: 50px;
+    width: 50px;
+    display: flex;                           /*mostrar los elementos en una linea*/
+    justify-content: center;                 /*centrar los elementos*/
+    align-items: center;                     /*centrar los elementos*/
+
+}
+.redes{
+    display: flex;                              /*mostrar los elementos en una linea*/
+    justify-content: center;                    /*centrar los elementos*/
+    align-items: center;                        /*centrar los elementos*/
+}
+
+nav.redes ul li{          
+    display: inline-block;                      /*mostrar los elementos en una linea*/
+    gap: 20px;                                 /*espacio entre los elementos*/
+    list-style: none;                          /*sin puntos*/
+    padding: 0;                                /*margen interior 0*/
+    margin: 12px;                               /*margen exterior 12*/
+}
+footer{
+    background-color: white;                  /*color de fondo*/
+}
+.redes a img:hover{
+    transform: scale(1.2);                      /* Aumenta el tamaño de la imagen */
+}
+
+
